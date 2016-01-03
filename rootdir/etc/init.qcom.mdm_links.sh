@@ -33,8 +33,6 @@ PATH=/sbin:/system/sbin:/system/bin:/system/xbin
 export PATH
 
 MDM_IMAGES=/firmware/image
-CAMERA_DATA=/data/data/com.android.camera2
-rm -rf $CAMERA_DATA
 cd $MDM_IMAGES
 ln -s $MDM_IMAGES/apps.mbn /system/etc/firmware/apps.mbn 2>/dev/null
 ln -s $MDM_IMAGES/dsp1.mbn /system/etc/firmware/dsp1.mbn 2>/dev/null
